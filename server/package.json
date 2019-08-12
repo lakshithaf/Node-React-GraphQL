@@ -1,0 +1,25 @@
+{
+  "name": "node-react-graphql",
+  "version": "0.1.0",
+  "description": "Nodejs and Reactjs with GraphQl",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "GraphQL",
+    "Node.js",
+    "React.js"
+  ],
+  "author": "lakshitha fernando",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "nodemon": "^1.19.1"
+  }
+}
